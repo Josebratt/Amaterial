@@ -12,6 +12,9 @@ import { ToolbarComponent } from './toolbar/toolbar.component';
 import { SidenavComponent } from './sidenav/sidenav.component';
 import { FormsModule } from '@angular/forms';
 import { MenuComponent } from './menu/menu.component';
+import { ListComponent } from './list/list.component';
+import { GridlistComponent } from './gridlist/gridlist.component';
+import { ExpansionpanelComponent } from './expansionpanel/expansionpanel.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +25,10 @@ import { MenuComponent } from './menu/menu.component';
     ProgressspinnerComponent,
     ToolbarComponent,
     SidenavComponent,
-    MenuComponent
+    MenuComponent,
+    ListComponent,
+    GridlistComponent,
+    ExpansionpanelComponent
   ],
   imports: [
     BrowserModule,
