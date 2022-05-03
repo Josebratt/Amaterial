@@ -16,6 +16,10 @@ import { ListComponent } from './list/list.component';
 import { GridlistComponent } from './gridlist/gridlist.component';
 import { ExpansionpanelComponent } from './expansionpanel/expansionpanel.component';
 import { CardsComponent } from './cards/cards.component';
+import { TabsComponent } from './tabs/tabs.component';
+import { StepperComponent } from './stepper/stepper.component';
+import { InputComponent } from './input/input.component';
+import { SelectComponent } from './select/select.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +34,11 @@ import { CardsComponent } from './cards/cards.component';
     ListComponent,
     GridlistComponent,
     ExpansionpanelComponent,
-    CardsComponent
+    CardsComponent,
+    TabsComponent,
+    StepperComponent,
+    InputComponent,
+    SelectComponent
   ],
   imports: [
     BrowserModule,
