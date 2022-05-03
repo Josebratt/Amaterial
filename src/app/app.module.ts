@@ -10,7 +10,7 @@ import { BadgeComponent } from './badge/badge.component';
 import { ProgressspinnerComponent } from './progressspinner/progressspinner.component';
 import { ToolbarComponent } from './toolbar/toolbar.component';
 import { SidenavComponent } from './sidenav/sidenav.component';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MenuComponent } from './menu/menu.component';
 import { ListComponent } from './list/list.component';
 import { GridlistComponent } from './gridlist/gridlist.component';
@@ -20,6 +20,7 @@ import { TabsComponent } from './tabs/tabs.component';
 import { StepperComponent } from './stepper/stepper.component';
 import { InputComponent } from './input/input.component';
 import { SelectComponent } from './select/select.component';
+import { AutocompleteComponent } from './autocomplete/autocomplete.component';
 
 @NgModule({
   declarations: [
@@ -38,12 +39,14 @@ import { SelectComponent } from './select/select.component';
     TabsComponent,
     StepperComponent,
     InputComponent,
-    SelectComponent
+    SelectComponent,
+    AutocompleteComponent
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
     FormsModule,
+    ReactiveFormsModule,
     MaterialModule
   ],
   providers: [],
