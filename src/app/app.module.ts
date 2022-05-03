@@ -15,6 +15,7 @@ import { MenuComponent } from './menu/menu.component';
 import { ListComponent } from './list/list.component';
 import { GridlistComponent } from './gridlist/gridlist.component';
 import { ExpansionpanelComponent } from './expansionpanel/expansionpanel.component';
+import { CardsComponent } from './cards/cards.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { ExpansionpanelComponent } from './expansionpanel/expansionpanel.compone
     MenuComponent,
     ListComponent,
     GridlistComponent,
-    ExpansionpanelComponent
+    ExpansionpanelComponent,
+    CardsComponent
   ],
   imports: [
     BrowserModule,
