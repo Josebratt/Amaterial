@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 import { MatBadgeModule } from '@angular/material/badge';
 import { MatButtonModule } from '@angular/material/button';
 import { MatButtonToggleModule } from '@angular/material/button-toggle';
+import { MatCardModule } from '@angular/material/card';
 import { MatDividerModule } from '@angular/material/divider';
 import { MatExpansionModule } from '@angular/material/expansion';
 import { MatGridListModule } from '@angular/material/grid-list';
@@ -17,6 +18,7 @@ const Material = [
   MatBadgeModule,
   MatButtonModule,
   MatButtonToggleModule,
+  MatCardModule,
   MatDividerModule,
   MatExpansionModule,
   MatGridListModule,
