@@ -22,6 +22,12 @@ import { InputComponent } from './input/input.component';
 import { SelectComponent } from './select/select.component';
 import { AutocompleteComponent } from './autocomplete/autocomplete.component';
 import { CheckBoxRadioButtonComponent } from './check-box-radio-button/check-box-radio-button.component';
+import { DatepickerComponent } from './datepicker/datepicker.component';
+import { TooltipComponent } from './tooltip/tooltip.component';
+import { SnackbarComponent } from './snackbar/snackbar.component';
+import { DialogComponent } from './dialog/dialog.component';
+import { DialogExampleComponent } from './dialog-example/dialog-example.component';
+import { DatatableComponent } from './datatable/datatable.component';
 
 @NgModule({
   declarations: [
@@ -42,7 +48,13 @@ import { CheckBoxRadioButtonComponent } from './check-box-radio-button/check-box
     InputComponent,
     SelectComponent,
     AutocompleteComponent,
-    CheckBoxRadioButtonComponent
+    CheckBoxRadioButtonComponent,
+    DatepickerComponent,
+    TooltipComponent,
+    SnackbarComponent,
+    DialogComponent,
+    DialogExampleComponent,
+    DatatableComponent
   ],
   imports: [
     BrowserModule,
