@@ -18,6 +18,7 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatInputModule } from '@angular/material/input';
 import { MatListModule } from '@angular/material/list';
 import { MatMenuModule } from '@angular/material/menu';
+import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 import { MatRadioModule } from '@angular/material/radio';
 import { MatSelectModule } from '@angular/material/select';
@@ -49,6 +50,7 @@ const Material = [
   MatInputModule,
   MatListModule,
   MatMenuModule,
+  MatPaginatorModule,
   MatProgressSpinnerModule,
   MatRadioModule,
   MatSelectModule,
