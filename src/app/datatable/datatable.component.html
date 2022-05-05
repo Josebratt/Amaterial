@@ -1,6 +1,6 @@
-<!-- <mat-form-field>
+<mat-form-field>
     <input (keyup)="applyFilter($event)" matInput placeholder="filter">
-</mat-form-field> -->
+</mat-form-field>
 <table
   mat-table
   [dataSource]="dataSource"
@@ -47,6 +47,6 @@
   </ng-container>
 
   <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
-  <!-- <tr mat-row (click)="logData(row)" *matRowDef="let row; columns: displayedColumns"></tr> -->
-  <tr mat-row *matRowDef="let row; columns: displayedColumns"></tr>
+  <tr mat-row (click)="logData(row)" *matRowDef="let row; columns: displayedColumns"></tr>
 </table>
+<mat-paginator [pageSizeOptions]="[5, 10, 20]" showFirstLastButtons></mat-paginator>
